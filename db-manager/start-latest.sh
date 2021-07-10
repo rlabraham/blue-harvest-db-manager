@@ -1,0 +1,1 @@
+docker run -e MYSQL_ROOT_PASSWORD=blueharvest richardleeabraham/blue_harvest_db:latest

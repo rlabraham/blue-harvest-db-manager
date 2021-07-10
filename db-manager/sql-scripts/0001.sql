@@ -1,10 +1,12 @@
 CREATE TABLE user (
-  userid bigint NOT NULL PRIMARY KEY,
-  givenname varchar(25),
-  familyname varchar(25),
-  middlename varchar(25),
-  salutations varchar(25),
-  dateofbirth date,
-  description text,
-  gender enum('male', 'female', 'transfemale', 'transmale', 'nonbinary')
+  user_id bigint NOT NULL PRIMARY KEY,
+  user_id_name varchar(25),
+  family_name varchar(25),
+  given_name varchar(25),
+  gender varchar(25),
+  birthdate date,
+  home_city varchar(25),
+  profession varchar(25),
+  summary text,
+  billing_id bigint
 );
